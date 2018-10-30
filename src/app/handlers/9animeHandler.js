@@ -3,7 +3,7 @@ import { MediaHandler, MIN_CYCLE } from '../MediaHandler'
 export class NineAnimeHandler extends MediaHandler {
 
   accept (url) {
-    return url.indexOf('9anime.is') >= 0 && url.indexOf('watch') >= 0
+    return url.indexOf('9anime.to') >= 0 && url.indexOf('watch') >= 0
   }
 
   verify (source, cycle, $) {
